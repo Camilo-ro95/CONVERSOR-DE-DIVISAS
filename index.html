@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de divisas</title>
+    <script src="index.js"></script>
+</head>
+
+<body>           
+    <center>
+        <br><br><br><br><br><br><br><br><br><h1>CONVERSOR DE DIVISAS</h1>
+        CANTIDAD: <input type="number" id="cantidad" value="0" onchange="convertir()">
+        <span id="valor" style="display: none;"></span><br><br><br>
+        CONVERTIR DE:
+        <select id="de" onchange="convertir()">
+            <option value="1">DOLAR</option>
+            <option value="2">PESO MEXICANO</option>
+            <option value="3">PESO COLOMBIANO</option>
+            <option value="4">EURO</option>
+            <option value="5">LIBRA ESTERLINA</option>
+        </select><br><br>
+        CONVERTIR A:
+        <select id="a" onchange="convertir()">
+            <option value="1">DOLAR</option>
+            <option value="2">PESO MEXICANO</option>
+            <option value="3">PESO COLOMBIANO</option>
+            <option value="4">EURO</option>
+            <option value="5">LIBRA ESTERLINA</option>
+            </option>
+        </select><br>
+        <h1 id="resultado">$0.00</h1>
+
+
+    </center>
+
+</body>
+
+</html>
