@@ -34,16 +34,16 @@ function convertir() {
         resultado = valor * (pmexicano / lesterlina);
     }//pcolombiano a dolar
     else if (de == 3 && a == 1) {
-        resultado = valor * dolar;
+        resultado = valor / dolar
     }//pcolombiano a pmexicano
     else if (de == 3 && a == 2) {
-        resultado = valor * pmexicano;
+        resultado = valor / pmexicano
     }//pcolombiano a euro
     else if (de == 3 && a == 4) {
-        resultado = valor * euro;
+        resultado = valor / euro
     }//pcolombiano a lesterlina
     else if (de == 3 && a == 5) {
-        resultado = valor * lesterlina;
+        resultado = valor / lesterlina
     }//euro a dolar
     else if (de == 4 && a == 1) {
         resultado = valor * (euro / dolar);
